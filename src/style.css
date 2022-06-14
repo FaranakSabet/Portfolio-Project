@@ -1,7 +1,12 @@
+body{
+    margin-left: 24px;
+}
 h1 {
   color: red;
   font-family: "Playfair Display", serif;
+  
 }
 p {
   font-family: "Poppins", sans-serif;
+
 }
