@@ -1,8 +1,8 @@
-:root{
-    --branding-color:#6c63ff;
-    --secondary-color:#f9f7fe;
-    --heading-font-family:"playfair Display", serif;
-    --default-font-family:"poppins", sans-serif;
+:root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "playfair Display", serif;
+  --default-font-family: "poppins", sans-serif;
 }
 
 h1,
@@ -15,12 +15,22 @@ h6 {
   color: black;
   font-weight: bold;
 }
-h1 {
-  font-size: 96px;
-  line-height: 1.5;
+.content h1 {
+  font-size: 64px;
+  line-height: 80px;
 }
-h2{
-    font-size: 64px;
+.content h2 {
+  font-size: 44px;
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+}
+
+.content p {
+  font-size: 14px;
 }
 p {
   font-family: var(--default-font-family);
@@ -55,55 +65,51 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
-.btn-branding-outline{
-   color: var(--branding-color); 
-   border: 1px solid var(--branding-color);
-   border-radius: 4px;
+.btn-branding-outline {
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
   font-size: 18px;
   border-radius: 4px;
   line-height: 27px;
-  padding: 15px 30px; 
+  padding: 15px 30px;
 }
-.project-description{
-    padding: 120px 60px;
-}
-@media(max-width: 900px){
-    
-    h1{
-        font-size: 46px;
-        line-height: 56px;
-    }
-    h2{
-        font-size: 24px;
-    }
-    .hero{
-        padding: 80px 20px;
-    }
-    .project-description{
-        padding: 0;
-        text-align: center;
-    }
-    .content-container{
-      text-align: center;
-      padding: 0;
-
-    
-    }
-}
-.content-container h1{
-font-size: 64px;
-line-height: 80px
-}
-
-
-.content-container h2{
-  font-size: 18px;
-  font-family: var(--default-font-family);
-  
-}
-.content-container{
+.project-description {
   padding: 120px 60px;
 }
-.content{
-  margin: 30px;
+@media (max-width: 900px) {
+  h1 {
+    font-size: 46px;
+    line-height: 56px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .content-container {
+    text-align: center;
+    padding: 0;
+  }
+}
+.content-container h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.content-container h2 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.content-container {
+  padding: 120px 60px;
+}
+.content {
+  padding: 0;
+  text-align: center;
 }
