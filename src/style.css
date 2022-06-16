@@ -141,6 +141,13 @@ footer .social-media-link a:hover{
   background-color: var(--branding-color);
 }
 
+footer .open-source-link{
+  color: var(--branding-color);
+}
+footer .open-source-link:hover{
+  font-size: 20px;
+  transition: all 100ms ease-in-out;
+}
 
 
 @media (max-width: 900px) {
